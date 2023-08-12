@@ -81,3 +81,17 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 990px) {
+  .col-lg-4,
+  .col-lg-8 {
+    text-align: center;
+  }
+  .col-lg-8 {
+    padding-top: 1rem;
+  }
+  .col-lg-8 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
